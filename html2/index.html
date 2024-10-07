@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Bootsrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand me-auto md-" href="#">TechNest</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TechNest</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-lg-2" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#offer">Products Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#location">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Laptop</a></li>
+                                <li><a class="dropdown-item" href="#">Headphone</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="#" class="login-button">Login</a>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!--End Navbar-->
+
+    <!--Hero Section-->
+        <section class = "hero-section">
+            <div class = "container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
+                <h1>Discover the Latest Tech Innovations</h1>
+                <h2>Right at your fingertips</h2>
+                <a href="#" class="btn btn-primary mt-3">Shop Now</a>
+            </div>
+        </section>
+    <!--End Hero Section-->
+
+    <!--Introduction Section-->
+        <div class="row row1" id = "About">
+            <div class = "imgWrapper">
+                <img src ="pic/model.jpeg" alt ="">
+            </div>
+            <div class = "contentWrapper">
+                <div class = "content">
+                    <span class="textWrapper">
+                        <span></span>Tech Made Accessible
+                    </span>
+                    <h2>Your One-Stop Shop for Smart Solutions</h2>
+                    <p>TechNest was born from a passion for technology and a desire to make cutting-edge gadgets accessible to everyone. Founded by tech enthusiasts, we envisioned a haven for gadget lovers, offering a diverse selection of high-quality products ranging from the latest smartphones and laptops to smart home devices and gaming gear. At TechNest, we provide a seamless shopping experience with both online and in-store options, allowing customers to browse our extensive catalog or visit our store to test products and receive expert advice. We’re not just a store; we’re a community dedicated to innovation, where you can join workshops, product launches, and exclusive events that inspire creativity and connect tech enthusiasts.</p>
+                    <a href = "https://www.facebook.com/apple/" class = "fb">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href = "https://www.instagram.com/samsungmalaysia/?hl=en" class = "ig"> 
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href = "https://x.com/Huawei?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class = "twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href = "https://www.youtube.com/@SolozClub" class = "yt">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <!--End Introduction Section-->
+    
+
+
+    <!--Offer Section-->
+    <div class = "container-fluid" id = "offer">
+        <div class="text text-center">
+            <div class="offer-card text-center">
+                <div class="card-body">
+                    <h1>What We Offer</h1>
+                    <p>Your One-Stop Shop for Smart Devices: <span>Providing Everything You Need to Stay Ahead in the Tech Game</span></p>
+                </div>
+            </div>
+        </div>       
+        <div class="row g-5 offer">
+            <div class="col-12 col-md-6 col-lg-4"> 
+                <div class = "card">
+                    <img src = "pic/offer/usb.jpg" alt ="Tech_Accessories" class = "card-img-top">
+                    <a href = "#" class = "button text-center">Browse Now</a>
+                    <div class ="card-body">
+                        <h5 class  = "card-title">Tech Accessories</h5>
+                        <p class = "card-text">USB hubs, external hard drives, memory cards, cables, adapters, and laptop stands.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4"> 
+                <div class = "card">
+                    <img src = "pic/offer/gaming console.jpg" alt ="Gaming_Consoles" class = "card-img-top">
+                    <a href = "#" class = "button text-center">Browse Now</a>
+                    <div class ="card-body">
+                        <h5 class  = "card-title">Gaming Consoles</h5>
+                        <p class = "card-text">PS5, Xbox, Steam Deck, Nintendo Switch, along with controllers, headsets, and other peripherals.
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-12 col-md-6 col-lg-4"> 
+                <div class = "card">
+                    <img src = "pic/offer/phone.jpg" alt ="Smartphones" class = "card-img-top">
+                    <a href = "#" class = "button text-center">Browse Now</a>
+                    <div class ="card-body">
+                        <h5 class  = "card-title">Smartphones</h5>
+                        <p class = "card-text">Latest models from popular brands, along with accessories like cases, screen protectors, and chargers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4"> 
+                <div class = "card">
+                    <img src = "pic/offer/security_camera.jpg" alt ="Smart Home Devices" class = "card-img-top">
+                    <a href = "#" class = "button text-center">Browse Now</a>
+                    <div class ="card-body">
+                        <h5 class  = "card-title">Smart Home Devices</h5>
+                        <p class = "card-text">Products like smart speakers, security cameras, smart lighting, thermostats, and home assistants.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4"> 
+                <div class = "card">
+                    <img src = "pic/offer/drone.jpg" alt ="Drones & Cameras" class = "card-img-top">
+                    <a href = "#" class = "button text-center">Browse Now</a>
+                    <div class ="card-body">
+                        <h5 class  = "card-title">Drones & Cameras</h5>
+                        <p class = "card-text">Drones for photography and recreational use, action cameras, and professional camera equipment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4"> 
+                <div class = "card">
+                    <img src = "pic/offer/ebike.jpg" alt ="E-Scooters & Electric Bikes" class = "card-img-top">
+                    <a href = "#" class = "button text-center">Browse Now</a>
+                    <div class ="card-body">
+                        <h5 class  = "card-title">E-Scooters & Electric Bikes</h5>
+                        <p class = "card-text">Eco-friendly personal transportation devices for urban mobility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!--End Offer Section-->
+
+    <!-- Map-->
+    <div class="container-fluid" id = "location">
+        <div class="expert-support-container text-center"> <!-- Scoped Container -->
+            <div class="expert-support-card">
+                <div class="card-body">
+                    <h1 class="text-start text-lg-center">Expert Support</h1>
+                    <p class="text-start text-lg-center">Visit TechNest for personalized guidance on the latest gadgets and tech solutions.<br>
+                       Our expert team is here to help you find exactly what you need. Stop by today for hands-on demos and unmatched service!
+                    </p>
+                    <!-- New Row with Scoped Styles -->
+                    <div class="row w-1001">
+                        <div class="col-lg-6 my-4">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.8738902619284!2d101.73480567608244!3d3.1280242968474727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc374119aeec81%3A0xa023551a33256eb1!2sUniversiti%20Poly-Tech%20Malaysia!5e0!3m2!1sen!2smy!4v1728039793382!5m2!1sen!2smy"
+                            class="w-100" height="400" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="col-lg-6 my-4 d-flex align-items-center">
+                          <div>
+                            <h6 class="text-lg-start">Visit us in Stores!</h6>
+                            <p class="location-title text-lg-start custom-margin-lg text-justify"><span>OUR LOCATION</span><br>Come visit us at our store, where you can discover the latest in tech and gadgets. Conveniently located, 
+                                we're here to provide you with hands-on access to our products and expert assistance. Whether you need advice, want to browse, or are ready to make a purchase,
+                                we’re excited to welcome you and help with all your tech needs.
+                            </p>
+                            <div class="custom-button-container">
+                                <p class="text-lg-start">
+                                    <a href="https://maps.app.goo.gl/CHE7mRCYjUF7dzsh9" class="custom-button">Click Here for Map</a>
+                                </p>
+                            </div>
+
+                            </div>
+                            
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Map-->
+    
+    <!--Footer-->
+    <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container-fluid p-4">
+          <!-- Section: Images -->
+          <section class="">
+            <div class="row foot">
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0 my-2">
+                    <div data-mdb-ripple-init
+                        class="bg-image hover-overlay shadow-1-strong rounded"
+                        data-ripple-color="light"
+                    >
+                        <img src="pic/footer/1.jpg" class="w-100"/>
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                        </a>
+                    </div>
+                </div>
+              <div class="col-lg-2 col-md-4 mb-4 mb-md-0 my-2">
+                <div data-mdb-ripple-init
+                        class="bg-image hover-overlay shadow-1-strong rounded"
+                        data-ripple-color="light"
+                    >
+                        <img src="pic/footer/2.jpg" class="w-100" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                        </a>
+                    </div>
+              </div>
+              <div class="col-lg-2 col-md-4 mb-4 mb-md-0 my-2">
+                <div data-mdb-ripple-init
+                        class="bg-image hover-overlay shadow-1-strong rounded"
+                        data-ripple-color="light"
+                    >
+                        <img src="pic/footer/3.jpg" class="w-100" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                        </a>
+                    </div>
+              </div>
+              <div class="col-lg-2 col-md-4 mb-4 mb-md-0 my-2">
+                <div data-mdb-ripple-init
+                        class="bg-image hover-overlay shadow-1-strong rounded"
+                        data-ripple-color="light"
+                    >
+                        <img src="pic/footer/4.jpg" class="w-100" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                        </a>
+                    </div>
+              </div>
+              <div class="col-lg-2 col-md-4 mb-4 mb-md-0 my-2">
+                <div data-mdb-ripple-init
+                        class="bg-image hover-overlay shadow-1-strong rounded"
+                        data-ripple-color="light"
+                    >
+                        <img src="pic/footer/5.jpg" class="w-100" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                        </a>
+                    </div>
+              </div>
+              <div class="col-lg-2 col-md-4 mb-4 mb-md-0 my-2">
+                <div data-mdb-ripple-init
+                        class="bg-image hover-overlay shadow-1-strong rounded"
+                        data-ripple-color="light"
+                    >
+                        <img src="pic/footer/6.jpg" class="w-100" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                        </a>
+                    </div>
+              </div>
+            </div>
+          </section>
+          <!-- Section: Images -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2024 Copyright:
+          <a class="text-body" href="#">Link will be put here later</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <!--End Footer-->
+    
+    <!--Bootsrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>  
+</html>
+
